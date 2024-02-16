@@ -3,7 +3,9 @@
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
-
+        
+        <div className="text-center text-white text-2xl font-normal font-['Space Grotesk']">MIRRORED IN PERFECT SYNCHRONICITY</div>
+        
         <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
 
